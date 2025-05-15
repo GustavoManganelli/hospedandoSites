@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Como Hospeadar no GitHub Paginas</title>
+</head>
+
+<body>
+    <main>
+        <h1>Passos para hospeadar um projeto no GitHub pages</h1>
+        <ol>
+            <li>
+                <p>Crie um repositório no GitHub com o mesmo nome do seu projeto</p>
+            </li>
+            <li>
+                <p>No terminal, inicializa o repositório local com <code>git init</code></p>
+            </li>
+            <li>
+                <p>Altere o nome da branch principal para <code>main</code></p>
+            </li>
+            <li>
+                <p>Adicione os arquivos com <code>git add .</code> e faça o commit com
+                    <code>git commit -m "First commit"</code>
+                </p>
+            </li>
+            <li>
+                <p>Conecte ao repositório remoto com: <br>
+                    <code>git remote add origrin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git</code>
+                </p>
+            </li>
+            <li>
+                <p>Envie os arquivos com <code>git push -u origin main</code></p>
+            </li>
+            <li>
+                <p>No GitHub va em <strong>Settings > Pages</strong></p>
+            </li>
+            <li>
+                <p>Em "branch", selecione <code>main</code> e a pasta <code>/ (root) .</code> <strong>Clique em
+                        Save</strong></p>
+            </li>
+            <li>
+                <p>Após alguns segundos, seu site estará disponível no link exibido em pages</p>
+            </li>
+
+        </ol>
+    </main>
+</body>
+
+</html>
